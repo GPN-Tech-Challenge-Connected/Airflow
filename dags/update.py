@@ -56,3 +56,5 @@ find_element = PythonOperator(
     python_callable=_update_state,
     dag=dag
 )
+
+get_context >> find_element
