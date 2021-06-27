@@ -1,6 +1,13 @@
 import requests
 from datetime import datetime
 
+data = {
+  'typeId': '1',
+  'equipmentNumber': '0001',
+  'performer': 'Vasya', 
+  'data': "2021-05-01 12:21:01"
+}
+
 headers = {
     'accept': 'application/json',
     'Content-Type': 'application/json',
